@@ -1,0 +1,18 @@
+{
+  "name": "fix-self-ref-keys",
+  "version": "0.1.0",
+  "description": "fixes a file so that an object contains keys matching the path to that object",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fix-self-ref-keys": "./index.mjs"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "json5": "^2.2.3",
+    "lodash": "^4.17.21"
+  }
+}
